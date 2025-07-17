@@ -1,0 +1,294 @@
+/*
+ * CSS For DotNetNuke Skin by bestdnnskins.com
+ * Copyright 2014 By BESTDNNSKINS.COM
+ */
+/*-------- Design style --------*/
+.skin_top{ background:#fff;  }
+.user_bar{padding:0 15px 0 0; float:right;line-height:32px}
+.language_position {float:right; padding:0 0 0 4px;}
+.user_style { float:right; list-style:none; padding:0 7px; margin:0; }
+.skin_header{ background:#fff;}
+.logo_style{ padding:0 15px 20px 15px; float:left; line-height:80px;}
+#header_right{ float:right; }
+#skin_menu{background:#292a32; margin:0; border-bottom:3px solid #484950;  position:relative;}
+#skin_wrapper.boxed #skin_menu { margin:0 -15px; }
+.menu_left{border-color:transparent #7a7a7a transparent transparent;border-style: solid;border-width: 0 15px 7px 0;height: 0;;width: 0;content: "";position: absolute;left:-15px;bottom:-10px; }
+.menu_right{border-color:#7a7a7a transparent transparent transparent;border-style: solid;border-width: 7px 15px 0 0;height: 0;;width: 0;content: "";position: absolute;right:-15px;bottom:-10px;}
+
+/*page name*/
+.page_name { background:#eee; position:relative; min-height:60px; border-bottom:1px solid #e3e3e3; }
+.pagename_style { position:relative; z-index:913; }
+.pagename_style h1{ float:left; padding-left:15px; color:#222; line-height:60px; font-size:22px; font-weight:normal; margin:0;}
+.breadcrumb_style {float:right; padding-right:15px; color:#222; line-height:60px;}
+
+/*leftsidebar layout*/
+.LM_position { float:left; width:22%;padding:0; }
+.LM_skin_content { float:left; min-height:350px; width:78%; padding:0 0 0 25px;}
+.leftside_style { padding:0;}
+
+/*--------- StandardMenu style ----------*/
+#standardMenu { position:relative;}
+#standardMenu ul { list-style:none; margin:0; padding:0;}
+#standardMenu li{ position:relative; display:block; float:left; margin:0; list-style:none; margin-bottom:-3px;  }
+
+#standardMenu .rootMenu li a{ display:block; position:relative; float:none; z-index:10; cursor:pointer; text-decoration:none; }
+#standardMenu .rootMenu li.selected a, #standardMenu .rootMenu li.breadcrumb a, #standardMenu .rootMenu li:hover a, #standardMenu .rootMenu li a:hover { text-decoration:none;}
+#standardMenu .rootMenu > li a span { display:block; padding:0 22px; height:48px; line-height:48px; color:#fff;  white-space:nowrap; font-size:13px; font-weight:bold;text-transform:none;  border-right:1px solid #1e1f25; border-left:1px solid #393a41}
+#standardMenu .rootMenu li.last a span{ border-right:none;}
+#standardMenu .rootMenu li.first a span{ border-left:none;}
+#standardMenu > .rootMenu > li.haschild > a span { padding-right:27px;}
+#standardMenu .rootMenu >li a span .navarrow{background:url(../images/menu_icon.png) no-repeat center center;position:absolute; width:30px; height:50px; right:0;}
+#standardMenu .rootMenu li.selected a span, #standardMenu .rootMenu li.breadcrumb a span, #standardMenu .rootMenu li:hover a span{ color:#fff ; background:rgba(255,255,255,0.05) ; border-bottom:3px solid; }
+
+/*-- submenu --*/
+#standardMenu .subMenu {display:none; position:absolute; left:0; top:auto; width:200px; z-index:1210; padding:0 0 0 0;}
+#standardMenu .subMenu ul{ margin:0; padding:0; position:relative; z-index:1200; background:#292a32; background:rgba(41,42,50,.95); border:1px solid #eee; border:1px solid rgba(255,255,255,.1); border-bottom:none;}
+#standardMenu .subMenu li{ float:none; clear:both; background:none; width:100%; padding:0; margin-bottom:0;}
+#standardMenu .subMenu li.item a{ border-bottom:1px solid #eee; border-bottom:1px solid rgba(255,255,255,.1); padding:0; background:none; }
+
+#standardMenu .subMenu li.item a span{ display:block; background:none; font-size:12px; color:#fff; font-weight:normal; white-space:normal; height:auto; line-height:1.5em; padding:10px 15px 10px 15px; text-transform:none; margin:0; border:none;}
+#standardMenu .subMenu li.selected > a span, #standardMenu .subMenu li.breadcrumb > a span, #standardMenu .subMenu li.item > a:hover span {background:rgba(255,255,255,0.05) ; color:#fff;cursor:pointer; border-radius:0; -webkit-border-radius:0; -moz-border-radius:0;}
+#standardMenu .subMenu .subarrow{ background:url(../images/menu-arrow02.gif) no-repeat; position:absolute; right:0; top:15px; width:15px; height:7px;}
+#standardMenu .subMenu li.selected > a .subarrow, #standardMenu .subMenu li.breadcrumb > a .subarrow, #standardMenu .subMenu li.item a:hover .subarrow{ background:url(../images/menu-arrow02.gif) no-repeat;}
+
+#standardMenu ul li ul li ul{ display:none; width:200px; margin:0;}
+#standardMenu ul li ul li ul.level1{ display: none;position:absolute;left:198px; top:-1px;}
+#standardMenu ul li ul li ul li ul.level2 { display:none;position:absolute;left:198px;top:-1px;}
+#standardMenu ul li ul li ul li ul li:hover ul.level3 { display: block;position:absolute;left:198px;top:-1px;}
+#standardMenu ul li ul li ul li ul li ul li:hover ul.level4 { display: block;position:absolute;left:198px;top:-1px;}
+
+#standardMenu img.mmIcon {max-height:24px; margin-right: 7px; vertical-align: middle;}
+#standardMenu img.rootIcon {max-height:40px; margin-right:7px; margin-left:-10px; vertical-align: middle;}
+
+/*--------- megaMenu style ----------*/
+#megaMenu { position:relative;}
+#megaMenu ul { list-style:none; margin:0; padding:0;}
+#megaMenu li{position:relative; display:block; float:left; margin:0; list-style:none; margin-bottom:-3px;}
+
+#megaMenu .root li a{  display:block; position:relative; float:none; z-index:10; cursor:pointer; text-decoration:none;}
+#megaMenu .root li.selected a, #megaMenu .root li.breadcrumb a, #megaMenu .root li:hover a, #megaMenu .root li a:hover {  text-decoration:none;}
+#megaMenu .root > li a span {  display:block; padding:0 22px; height:48px; line-height:48px; color:#fff;  white-space:nowrap; font-size:13px; font-weight:bold;text-transform:none;  border-right:1px solid #1e1f25; border-left:1px solid #393a41}
+#megaMenu .root li.last a span{ border-right:none;}
+#megaMenu .root li.first a span{ border-left:none;}
+#megaMenu > .root > li.haschild > a span { padding-right:27px;}
+#megaMenu .root >li a span .navarrow{background:url(../images/menu_icon.png) no-repeat center center;position:absolute; width:30px; height:50px; right:0;}
+#megaMenu .root li.selected a span, #megaMenu .root li.breadcrumb a span, #megaMenu .root li:hover a span { color:#fff ; background:rgba(255,255,255,0.05) ; border-bottom:3px solid;}
+
+/*-- category --*/
+#megaMenu .category{ position:absolute;left:0;top:auto;z-index:1210;width:380px; display:none; padding:0 0 0 0; border:none;}
+#megaMenu .category > ul{ margin:0; position:relative; z-index:1200; padding:5px 9px 20px; background:#292a32; background:rgba(41,42,50,.95); border:1px solid #eee; border:1px solid rgba(255,255,255,.1); }
+#megaMenu .category li{ background:none; margin:0; width:180px; padding:0 10px; float:left;}
+#megaMenu .category li.item a{ border:none;border-bottom:1px solid #eee; border-bottom:1px solid rgba(255,255,255,.1);background:none;}
+#megaMenu .category li.item a span{ display:block; background:none; font-size:12px; color:#fff; font-weight:normal; white-space:normal; height:auto; line-height:1.5em; padding:11px 0 8px 2px; margin:0; text-transform:none; border:none; }
+#megaMenu .category li.selected > a span, #megaMenu .category li.item a:hover span { background:none; text-decoration:none;  cursor:pointer; color:#d9d9d9;  }
+
+#megaMenu .leaf li{ clear:both; float:none; width:175px; margin:0 0 0 5px; padding:0; }
+#megaMenu .leaf li.item a{ padding:0 0 0 8px; background:url(../images/right.gif) left 15px no-repeat; border:none;}
+#megaMenu .leaf li.item a span{ padding:8px 0; font-weight:normal; }
+#megaMenu .leaf li li{ clear:both;float:none; width:170px; }
+
+#megaMenu img.mmIcon {max-height:24px; margin-right: 7px; vertical-align: middle;}
+#megaMenu img.rootIcon {max-height:40px; margin-right:7px; margin-left:-10px; vertical-align: middle;}
+
+/*--------- LeftMenu style ----------*/
+#leftMenu{position:relative; margin:0 auto;}
+#leftMenu ul { list-style:none; margin:0; padding:0;}
+#leftMenu li{ display:block; float:none; list-style-type:none; margin:0; padding:0; line-height:normal;}
+#leftMenu .leftRoot li a span { display:none;text-decoration:none;} 
+
+/* left submenu */
+#leftMenu .leftSub { z-index:900;width:100%; display:none;padding:0; margin:0;}
+#leftMenu .leftRoot li.breadcrumb .leftSub { display:block; }
+#leftMenu .leftSub ul{ margin:0; padding:0; position:relative; background:none; border:none; z-index:900;}
+#leftMenu .leftSub li{float:none; clear:both; padding:0; position:relative; background:#f5f5f5; border:1px solid #ddd; margin:3px 0; }
+
+#leftMenu .leftSub li.item a{ background:none; text-decoration:none; }
+#leftMenu .leftSub li.item a span{ display:block; font-size:13px; color:#555555; font-weight:bold; white-space:normal; line-height:22px; padding:8px 10px 8px 18px; text-shadow:none; text-transform:none; margin:0; }
+
+#leftMenu .level1{ display: none; }
+#leftMenu .leftSub li.breadcrumb .level1{ display: block; border-top:1px solid #fff;}
+#leftMenu .level1 li{ background:#fff; margin:0; border:none; }
+#leftMenu .level1 li.item a span { font-size:12px; padding-left:20px; font-weight:normal; }
+
+#leftMenu .level2 { display: block; }
+#leftMenu .level2 li{ background-position:21px 18px;  }
+#leftMenu .level2 li.item a span { padding-left:30px;}
+
+#leftMenu .level3 { display: block; }
+#leftMenu .level3 li{ background-position:27px 18px;  }
+#leftMenu .level3 li.item a span { padding-left:40px;}
+
+#leftMenu img.mmIcon {max-height:24px; margin-right: 7px; vertical-align: middle;}
+#leftMenu img.rootIcon {max-height:30px; margin-right: 6px; vertical-align: middle;}
+
+#leftMenu .leftSub a span .subarrow{ position:absolute; width:60px; height:48px; right:0; top:0; background:url(../images/leftmenu_navarrow.png) no-repeat center 2px; cursor:pointer; }
+#leftMenu .leftSub a span .subarrow2{ background-position:center -44px;}
+#leftMenu .level1 a span .subarrow { display:none!important;}
+
+/*--------- Login style ----------*/
+.Login, A.Login:link, A.Login:visited, A.Login:active{   font-size:12px; color:#333; text-decoration:none; }
+A.Login:hover {  text-decoration:none; }
+
+/*--------- User style ----------*/
+.User, A.User:link, A.User:visited, A.User:active{font-size:12px; color:#333; text-decoration:none;padding:11px 6px 11px 6px;}
+A.User:hover {text-decoration:none;  }
+.User:after {content: " | ";padding-left:5px; color:#333;}
+
+/*--------- Register and Login Style ----------*/
+#Login{ float:right;padding-right:0;height:33px; border:1px solid #555; border:1px solid rgba(0,0,0,.07);  margin-top:0; }
+#Login ul {margin:0; padding:0;}
+#Login .registerGroup, #Login .registerGroup *, #Login .loginGroup, #Login .loginGroup *{ display:block; } 
+#Login .registerGroup, #Login .loginGroup{float:left;padding:0;margin:0;} 
+#Login .registerGroup li{ float:left; height:32px;border:none;}
+#Login .registerGroup .buttonGroup{margin-right:0;}
+#Login .registerGroup a { border-right:1px solid #555; border-right:1px solid rgba(0,0,0,0.1); position:relative; display:block; padding:0 8px; min-width:15px; height:32px;  font-size:12px; font-weight:normal; vertical-align:middle;line-height:32px; color:#333; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
+#Login .loginGroup a{ position:relative; display:block; padding:0 8px; min-width:15px; height:32px;  font-size:12px; font-weight:normal; vertical-align:middle;line-height:32px; color:#333;}
+#Login .registerGroup a:hover,#Login .loginGroup a:hover{text-decoration:none;}
+#Login .registerGroup a strong,#Login .loginGroup a strong{position:absolute;left:0; top:2px;width:100%; height:100%;display:block;font-size:12px;vertical-align:baseline;overflow:hidden;text-indent:9999px;}
+.registerGroup .userMessages strong,.registerGroup .userNotifications strong{background:url(../images/userLoginSprite.png) no-repeat 9px 9px;}
+.registerGroup .userNotifications strong{ background-position:-92px 7px;}
+.registerGroup .userMessages strong:hover{background-position:9px -42px;}
+.registerGroup .userNotifications strong:hover{ background-position:-92px -44px;}
+.registerGroup .userMessages strong:active{background-position:9px -90px;}
+.registerGroup .userNotifications strong:active{ background-position:-92px -91px;}	
+#Login .registerGroup a span{ position:absolute; right:0; top:0; display:inline-block; padding:2px; min-width:7px; line-height:12px; text-align:center; background:rgb(31,152,241); font-size:12px; color:#fff; text-shadow: 0px 1px 0px #333333;}
+#Login .registerGroup .userProfileImg a{ padding:0; background:none; }
+#Login .registerGroup a img{ border:none; height:32px; width:32px; }
+
+/*--------- Language Style ----------*/
+.language-object{display:block; line-height:32px;}
+.language-object .Language {margin:0 2px;}
+.language-object span img{height:15px; width:22px;filter:Alpha(Opacity=90);opacity:0.9; margin:0; border:2px solid transparent; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
+.language-object span:hover img{filter:Alpha(Opacity=100);opacity:1;}
+.language-object .Language.selected img{ filter:Alpha(Opacity=100);opacity:1; border-color:#555; border-color:rgba(0,0,0,.1); -webkit-border-radius: 2px;border-radius: 2px;}
+
+/*--------- Search Style ----------*/
+#Search{ margin-right:40px; float:right;}
+.searchcss, a.searchcss:link, a.searchcss:active, a.searchcss:visited{ color:#fff; text-decoration:none; font-weight:normal; font-size:12px; display:block;  height:48px; text-indent:-99999px; overflow:hidden;}
+.searchSite { text-indent:-99999px;}
+a.searchcss:hover{ color:#fff; text-decoration:none; font-weight:normal; font-size:12px;}
+#Search input[type="text"] { background:rgba(255,255,255,.05);right:0; top:0; border:none; font-size:12px; color: #fff; width: 0; height:45px; line-height:20px; padding:5px 0 0 10px; z-index:1999; border:none;border-left:1px solid #393a41; transition: all 0.3s linear 0.5s;-webkit-transition: all 0.3s linear 0.5s;-moz-transition: all 0.3s linear 0.5s; margin-right:-1px;}
+#Search input[type="text"]:active, #Search input[type="text"]:focus {box-shadow: 0 2px 6px rgba(255,255,255,0.2) inset;-moz-box-shadow: 0 2px 6px rgba(255,255,255,0.2) inset;-webkit-box-shadow:0 2px 6px rgba(255,255,255,0.2) inset; outline: none; background:rgba(255,255,255,0.1); width:180px;  }
+#Search:hover input[type="text"] {width:180px; transition: all 0.3s linear 0s;-webkit-transition: all 0.3s linear 0s;-moz-transition: all 0.3s linear 0s;}
+
+#Search a{ display: block; position:absolute; right:0; top:0;height:48px; width:48px; padding:0;border:none;box-shadow:none;webkit-box-shadow:none;overflow:hidden;text-indent:-99999px; background:url(../images/icon_search.png) no-repeat 16px 16px; z-index:1;cursor:pointer;}
+#Search a:hover{background-color:rgba(193,32,38,0.9);transition: all 0.8s ease 0s;  -webkit-transition:all 0.8s ease 0s;-moz-transition:all 0.8s ease 0s;}
+#Search .searchInputContainer a.dnnSearchBoxClearText { top:10px;}
+
+@media handheld, only screen and (max-width: 1140px){
+#standardMenu .rootMenu >li a span { padding:0 15px;}	
+#standardMenu > .rootMenu > li.haschild > a span { padding-right:20px;}
+
+#megaMenu .root >li a span { padding:0 15px;}	
+#megaMenu > .root > li.haschild > a span { padding-right:20px;}
+
+#skin_menu{ margin-bottom:20px; padding-left:15px;}
+#skin_wrapper.boxed #skin_menu { margin:0; }
+.menu_left, .menu_right{background:none; display:none; }
+}
+
+
+@media handheld, only screen and (max-width: 991px){
+	
+#header_right{ float:none; width:100%;}	
+.logo_style{ float:none; text-align:center; min-height:60px; position:relative; }
+
+/*--------- mobile menu style ----------*/
+.mobile_nav { display:block; position:relative; width:40px; height:60px; top:0; left:10px; z-index:999;}
+.menuclick {background:url(../images/btn_menu.png) no-repeat center center; width:40px; height:40px; display: block; }
+
+#skin_menu{padding-left:0; background:none; margin:0; border-bottom:none; }
+.menu_box{ display:none; }
+
+/*--------- Search Style ----------*/
+#Search{float:none; position:absolute;  top:-9px; right:0;}
+.searchcss, a.searchcss:link, a.searchcss:active, a.searchcss:visited{ color:#555;  height:30px;}
+#Search input[type="text"] { position:absolute; background:none;right:0; top:0; border:none; width:180px; font-size:12px; color: #555; height:30px; line-height:18px; padding:0 30px 0 10px; border:1px solid #e5e5e5; }
+#Search a{ right:-30px; top:14px;height:30px; width:30px;  background-position:7px 7px;}
+#Search .searchInputContainer a.dnnSearchBoxClearText { top:-1px; z-index:10000;}
+#Search .searchSkinObjectPreview{ top:31px; }
+
+/*--------- StandardMenu style ----------*/
+#standardMenu {  padding-bottom:0;}
+#standardMenu li{ float:none; border-bottom:1px solid #eee; border-bottom:1px solid rgba(255,255,255,.6); margin:0; }
+#standardMenu li.back{ display:none;}
+
+#standardMenu .rootMenu li a{ background:#6b6b6b;}
+#standardMenu .rootMenu li a span { padding:0 20px; color:#FFFFFF!important; font-size:13px;font-weight:bold;height:38px; line-height:38px; border:none;}
+
+#standardMenu .rootMenu li a span .navarrow{ position:absolute; width:60px; height:38px; right:0; background:url(../images/mobile_navarrow.png) no-repeat center 0;}
+#standardMenu .rootMenu a span .navarrow2{ background-position:center -42px;}
+#standardMenu .rootMenu > li > a > span:after {display:none;}
+
+/*-- submenu --*/
+#standardMenu .subMenu{ position:static; width:auto; padding:0; }
+#standardMenu .subMenu ul{ background:none; border:none;}
+#standardMenu .subMenu ul li {border:none;}
+#standardMenu .subMenu li.item a{ background:#f5f5f5; border-bottom:1px solid #ccc; border-bottom:1px solid rgba(0,0,0,.1); }
+#standardMenu .subMenu li.selected > a span, #standardMenu .subMenu li.breadcrumb > a span, #standardMenu .subMenu li.item > a:hover span { background:#ddd!important; color:#333!important;}
+#standardMenu .subMenu li.selected > a, #standardMenu .subMenu li.item a:hover { background:#ddd!important;}
+#standardMenu .subMenu li.item a span{ padding:0 15px 0 25px; color:#333!important; background:none; height:35px; line-height:35px;}
+#standardMenu .level1 li.item a span{ padding-left:40px; }
+#standardMenu .level2 li.item a span{ padding-left:55px; }
+#standardMenu .level3 li.item a span{ padding-left:70px; }
+#standardMenu .subMenu .subarrow{ display:none; background:none;}
+
+#standardMenu ul li ul li ul{ display:block;width:auto;}
+#standardMenu ul li ul li ul.level1{ display: block; position:static; left:auto; top:auto;}
+#standardMenu ul li ul li ul li ul.level2 { display: block; position:static; left:auto; top:auto;}
+#standardMenu ul li ul li ul li ul li ul.level3 { display: block; position:static; left:auto; top:auto;}
+#standardMenu ul li ul li ul li ul li:hover ul.level3 { display: block;position:static;left:auto;top:auto;}
+
+/*--------- MegaMenu style ----------*/
+#megaMenu {  padding-bottom:0;}
+#megaMenu li{ float:none; border-bottom:1px solid #eee; border-bottom:1px solid rgba(255,255,255,.6); margin:0;}
+#megaMenu li.back{ display:none;}
+
+#megaMenu .root li a{ background:#6b6b6b;}
+#megaMenu .root li a span { padding:0 20px; color:#FFFFFF!important; font-size:13px;font-weight:bold;height:38px; line-height:38px; border:none; }
+#megaMenu .root li.selected a span, #megaMenu .root li.breadcrumb a span, #megaMenu .root li:hover a span {border-radius:0;}
+
+#megaMenu .root li a span .navarrow{ position:absolute; width:60px; height:38px; right:0; background:url(../images/mobile_navarrow.png) no-repeat center 0;}
+#megaMenu .root a span .navarrow2{ background-position:center -42px;}
+#megaMenu .root > li > a > span:after {display:none; }
+
+
+/*-- category --*/
+#megaMenu .category{position:static; width:auto!important; padding:0;}
+#megaMenu .category ul{background:#f5f5f5;  border:none; padding:0;}
+#megaMenu .category li{ width:auto; padding:0; float:none; border:none; }
+#megaMenu .category li.item a{ background:none; border-bottom:1px solid #ccc; border-bottom:1px solid rgba(0,0,0,.1); }
+#megaMenu .category li.selected > a, #megaMenu .category li a:hover { background:#ddd;}
+#megaMenu .category li.item a span{ padding:0 15px 0 25px; color:#333!important; background:none; height:35px; line-height:35px;}
+#megaMenu .category li li.item a span{ padding-left:40px; }
+#megaMenu .category li li li.item a span{ padding-left:55px; }
+#megaMenu .category li li li li.item a span{ padding-left:70px; }
+
+#megaMenu .leaf li{ width:auto; margin:0; padding:0; }
+#megaMenu .leaf li.item a{ padding:0;}
+#megaMenu .leaf li li{width:auto; }
+}
+
+/*--------- CSS Reset for Mobile ----------*/
+@media handheld, only screen and (max-width: 767px) {
+.user_bar{padding:0;}	
+.logo_style{ padding:10px 0 20px 0; text-align:center;}
+
+/*page name*/
+.page_name { min-height:50px; top:0; }
+.pagename_style h1{ line-height:50px; font-size:20px; padding-top:0; }
+.breadcrumb_style{ line-height:50px; display:none; padding-top:0; }
+
+/*leftsidebar layout*/
+.LM_position { float:none; width:auto; padding:0;}
+.LM_skin_content { float:none; width:auto; padding:0;}
+#leftMenu { display:none;}
+
+}
+
+/*--------- CSS Reset for Mobile ----------*/
+@media handheld, only screen and (max-width:400px) {
+/*--------- Register and Login Style ----------*/
+#Login .registerGroup .userProfileImg{ display:none; }
+}
+

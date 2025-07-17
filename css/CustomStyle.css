@@ -1,0 +1,643 @@
+#Body {
+ background-image: url(../images/undefined.jpg); 
+}
+
+A:link {
+  color: #c12026;
+}
+A:visited {
+  color: #c12026;
+}
+A:hover {
+  color: #c12026;
+}
+A:active {
+  color: #c12026;
+}
+h1 {
+  color: #c12026;
+}
+h2 {
+  color: #c12026;
+}
+h3 {
+  color: #c12026;
+}
+h4 {
+  color: #c12026;
+}
+h5 {
+  color: #c12026;
+}
+h6 {
+  color: #c12026;
+}
+A.Footer:hover {
+  color: #c12026;
+}
+.color_text {
+  color: #c12026;
+}
+.color_bg {
+  background-color: #c12026;
+}
+A.Breadcrumb:hover {
+  color: #c12026;
+}
+#HeaderOne #standardMenu .rootMenu li.selected a span,
+#HeaderOne #standardMenu .rootMenu li.breadcrumb a span,
+#HeaderOne #standardMenu .rootMenu li:hover a span {
+  border-bottom-color: #c12026;
+}
+#HeaderOne #megaMenu .root li.selected a span,
+#HeaderOne #megaMenu .root li.breadcrumb a span,
+#HeaderOne #megaMenu .root li:hover a span {
+  border-bottom-color: #c12026;
+}
+#leftMenu .leftSub li.selected > a span,
+#leftMenu .leftSub li a:hover span {
+  color: #c12026;
+}
+#HeaderOne A.Login:hover {
+  color: #c12026;
+}
+#HeaderOne A.User:hover {
+  color: #c12026;
+}
+#HeaderOne #Login .registerGroup a:hover,
+#HeaderOne #Login .loginGroup a:hover {
+  color: #c12026;
+}
+#HeaderOne #Login .registerGroup a:active,
+#HeaderOne #Login .loginGroup a:active {
+  color: #c12026;
+}
+#HeaderOne #Search a {
+  background-color: #c12026;
+}
+#HeaderOne #Search a:hover {
+  background-color: rgba(193, 32, 38, 0.8);
+}
+#HeaderTwo #skin_menu {
+  background-color: #c12026;
+}
+#HeaderTwo #standardMenu .subMenu li.selected > a span,
+#HeaderTwo #standardMenu .subMenu li.breadcrumb > a span,
+#HeaderTwo #standardMenu .subMenu li.item > a:hover span {
+  color: #c12026;
+}
+#HeaderTwo #megaMenu .category li.selected > a span,
+#HeaderTwo #megaMenu .category li.item a:hover span {
+  color: #c12026;
+}
+#HeaderTwo A.Login:hover {
+  color: #c12026;
+}
+#HeaderTwo A.User:hover {
+  color: #c12026;
+}
+#HeaderTwo #Login .registerGroup a:hover,
+#HeaderTwo #Login .loginGroup a:hover {
+  color: #c12026;
+}
+#HeaderTwo #Login .registerGroup a:active,
+#HeaderTwo #Login .loginGroup a:active {
+  color: #c12026;
+}
+#HeaderThree #standardMenu .rootMenu > li.selected > a span,
+#HeaderThree #standardMenu .rootMenu > li.breadcrumb > a span,
+#HeaderThree #standardMenu .rootMenu > li:hover > a span {
+  color: #c12026;
+}
+#HeaderThree #standardMenu .subMenu li.selected > a span,
+#HeaderThree #standardMenu .subMenu li.breadcrumb > a span,
+#HeaderThree #standardMenu .subMenu li.item > a:hover span {
+  color: #c12026;
+}
+#HeaderThree #megaMenu .root > li.selected > a span,
+#HeaderThree #megaMenu .root > li.breadcrumb > a span,
+#HeaderThree #megaMenu .root > li:hover > a span {
+  color: #c12026;
+}
+#HeaderThree #megaMenu .category li.selected > a span,
+#HeaderThree #megaMenu .category li.item a:hover span {
+  color: #c12026;
+}
+#HeaderThree A.Login:hover {
+  color: #c12026;
+}
+#HeaderThree A.User:hover {
+  color: #c12026;
+}
+#HeaderThree #Login .registerGroup a:hover,
+#HeaderThree #Login .loginGroup a:hover {
+  color: #c12026;
+}
+#HeaderThree #Login .registerGroup a:active,
+#HeaderThree #Login .loginGroup a:active {
+  color: #c12026;
+}
+#HeaderFour .skin_top {
+  background-color: #c12026;
+}
+#HeaderFour #standardMenu li.lampback {
+  border-bottom-color: #c12026;
+}
+#HeaderFour #standardMenu .rootMenu > li.selected > a span,
+#HeaderFour #standardMenu .rootMenu > li.breadcrumb > a span,
+#HeaderFour #standardMenu .rootMenu > li:hover > a span {
+  color: #c12026;
+}
+#HeaderFour #standardMenu .subMenu li.selected > a span,
+#HeaderFour #standardMenu .subMenu li.breadcrumb > a span,
+#HeaderFour #standardMenu .subMenu li.item > a:hover span {
+  color: #c12026;
+}
+#HeaderFour #megaMenu li.lampback {
+  border-bottom-color: #c12026;
+}
+#HeaderFour #megaMenu .category li.selected > a span,
+#HeaderFour #megaMenu .category li.item a:hover span {
+  color: #c12026;
+}
+.user_data .col-sm-4:hover span.fa {
+  background-color: #c12026;
+}
+.tab_style2 .nav-tabs > li.active > a,
+.tab_style2 .nav-tabs > li.active > a:hover,
+.tab_style2 .nav-tabs > li.active > a:focus {
+  background-color: #c12026;
+}
+.tab_style2 .nav-tabs > li > a:hover {
+  background-color: #c12026;
+}
+.tab_style3 .nav-tabs > li.active > a,
+.tab_style3 .nav-tabs > li.active > a:hover,
+.tab_style3 .nav-tabs > li.active > a:focus {
+  color: #c12026;
+  border-top-color: #c12026;
+}
+.tab_style3 .nav-tabs > li.active > a {
+  border-top-color: #c12026;
+}
+.tab_style3 .nav-tabs > li > a:hover {
+  color: #c12026;
+}
+.tab_style3 .nav-tabs > li.active > a:hover {
+  border-top-color: #c12026;
+}
+.team_list .dynamic_bar .progress-bar.progress-bar-danger {
+  background-color: #c12026;
+}
+.comment_list .comment_item .comment_right span a {
+  color: #c12026;
+}
+.comment_list:hover .title_style h3 {
+  color: #c12026;
+}
+.icon_hover:hover .icon_effect_1 .fa {
+  background-color: #c12026;
+}
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #c12026, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #c12026, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-moz-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #c12026, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #c12026, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    -moz-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #c12026, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #c12026, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+.icon_hover:hover .icon_effect_2 span.fa {
+  background-color: #c12026;
+}
+.icon_hover:hover .icon_effect_3 span.fa {
+  background-color: #c12026;
+}
+.icon_effect_3 .fa:after {
+  box-shadow: 3px 3px #c12026;
+}
+.icon_hover:hover .icon_effect_4 span.fa {
+  background-color: #c12026;
+}
+.icon_hover:hover .icon_effect_4 .fa:after {
+  box-shadow: 0 0 0 2px #c12026;
+}
+.news_scroll h3 {
+  background-color: #c12026;
+}
+#marquee_style ul li a:hover span {
+  color: #c12026;
+}
+#marquee_style ul li a span em {
+  color: #c12026;
+}
+.home1_top:hover h3 {
+  color: #c12026;
+}
+.carousel_prev4B:hover {
+  background-color: #c12026;
+}
+.carousel_next4B:hover {
+  background-color: #c12026;
+}
+.carousel_up ul li span.fa {
+  color: #c12026;
+}
+.accordion2 .ui-state-active,
+.accordion2 .ui-widget-content .ui-state-active,
+.accordion2 .ui-widget-header .ui-state-active h3 {
+  color: #c12026;
+}
+.accordion2 .ui-state-active span.ui-icon {
+  background-color: #c12026;
+}
+.accordion3 .ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  background-color: #c12026;
+}
+.accordion3 .ui-state-active span.ui-icon {
+  background-color: #c12026;
+}
+.side_tag ul li a:hover {
+  background-color: #c12026;
+}
+.footer_blog a h4:hover {
+  color: #c12026;
+}
+.calendar_style .ui-datepicker-inline > .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+  background-color: #c12026;
+}
+.calendar_style .datepicker td .ui-state-active,
+.calendar_style .datepicker td .ui-state-hover {
+  background-color: #c12026;
+}
+.scalable_websites:hover .websites_left h3 {
+  color: #c12026;
+}
+.feature_box:hover {
+  background-color: #c12026;
+}
+.comment_style h2 span {
+  color: #c12026;
+}
+.img_hover .img_hover_bg {
+  background-color: rgba(193, 32, 38, 0.8);
+}
+.img_hover2 .content {
+  background-color: rgba(193, 32, 38, 0.9);
+}
+.img_hover2 .mask-1,
+.img_hover2 .mask-2 {
+  background-color: rgba(193, 32, 38, 0.9);
+}
+.home3_features:hover h3 {
+  color: #c12026;
+}
+.hexagon {
+  background-color: #c12026;
+}
+.home3_top:hover h3 {
+  color: #c12026;
+}
+.about_company:hover h3 {
+  color: #c12026;
+}
+.about_company .col-md-2 ul li a:hover {
+  color: #c12026;
+}
+.about_company .col-md-2:hover span.fa {
+  color: #c12026;
+}
+.about_company .col-md-2:hover h4 {
+  color: #c12026;
+}
+.home4_icon .home4_arrow01 {
+  background-color: #c12026;
+}
+.home4_icon .home4_arrow02 {
+  background-color: #c12026;
+}
+.home4_icon:hover h3 {
+  color: #c12026;
+}
+.icon_circle:hover .icon_hover .fa,
+.icon_circle:hover .icon_hover span em {
+  border-color: #c12026;
+}
+.tab_left_style ul li a:hover {
+  color: #c12026;
+}
+.tab_left_style .nav-tabs > li.active {
+  color: #c12026;
+}
+.tab_left_style .nav-tabs > li.active > a,
+.tab_left_style .nav-tabs > li.active > a:hover,
+.tab_left_style .nav-tabs > li.active > a:focus {
+  color: #c12026;
+}
+.tab_left_style .right_list a.tab_btn1 span {
+  background-color: #c12026;
+}
+.tab_left_style .right_list a.tab_btn2:hover span {
+  background-color: #c12026;
+}
+.home5_top:hover h3 {
+  color: #c12026;
+}
+.home5_top a:hover span {
+  color: #c12026;
+}
+.icon_border_effect:hover .fa {
+  border-color: #c12026;
+}
+.home5_top:hover .icon_border_effect .fa {
+  border-color: #c12026;
+}
+.home5_show .show_list h4 span.fa {
+  background-color: #c12026;
+}
+.home5_show:hover h3 {
+  color: #c12026;
+}
+.home5_middle:hover .title_style h3 {
+  color: #c12026;
+}
+.flip_info .flip_info_back {
+  background-color: #c12026;
+}
+.comment_list .comment_item .comment_right span a {
+  color: #c12026;
+}
+.comment_list:hover .title_style h3 {
+  color: #c12026;
+}
+.contact_input_style .btn-primary {
+  background-color: #c12026;
+}
+.faq_right .btn-primary {
+  background-color: #c12026;
+}
+.full_width_page .left_border {
+  border-left-color: #c12026;
+}
+.sidebar_icon span.fa {
+  color: #c12026;
+}
+.service_top:hover h3 {
+  color: #c12026;
+}
+.service_icon span.fa {
+  color: #c12026;
+}
+.service_icon:hover .right_text h3 {
+  color: #c12026;
+}
+.client_say2 p {
+  border-color: #c12026;
+}
+.client_say2 .triangle {
+  background-color: #c12026;
+}
+.client_say3 p {
+  background-color: #c12026;
+}
+.client_say3 .triangle {
+  background-color: #c12026;
+}
+.pricing_top:hover h3 {
+  color: #c12026;
+}
+.pricing_top a.pricing_btn2 {
+  background-color: #c12026;
+}
+.pricing_top a.pricing_btn1:hover {
+  background-color: #c12026;
+}
+.col.high .head {
+  background-color: #c12026;
+}
+.price-table .high .price {
+  background-color: #c12026;
+}
+.time_line:hover .time_top h3 {
+  color: #c12026;
+}
+.time_line .time_center .center_top img {
+  border-color: #c12026;
+}
+.time_line .center_line {
+  background-color: #c12026;
+}
+.time_line .center_line .center_circle {
+  border-color: #c12026;
+}
+.time_line .center_line .center_bottom {
+  border-color: #c12026;
+}
+.time_line .center_line .center_bottom .center_bottom_circle {
+  background-color: #c12026;
+}
+.pg-info {
+  background-color: #c12026;
+}
+.pg-info4 {
+  background-color: #c12026;
+}
+.project_list a.read-more:hover {
+  background-color: #c12026;
+}
+.page_number_style .pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #c12026;
+  border-color: #c12026;
+}
+.tab_left_style .right_list a.tab_btn1 span {
+  background-color: #c12026;
+}
+.tab_left_style .right_list a.tab_btn2:hover span {
+  background-color: #c12026;
+}
+.flexslider_bg {
+  background-color: #c12026;
+}
+.flexslider3 .flex-control-paging li a {
+  border-color: #c12026;
+}
+.flexslider3 .flex-control-paging li a:hover {
+  background-color: #c12026;
+}
+.flexslider3 .flex-control-paging li a.flex-active {
+  background-color: #c12026;
+}
+.banner2_content a span {
+  background-color: #c12026;
+}
+.flex-caption3 .content_style a.btn02:hover span {
+  background-color: #c12026;
+  border-color: #c12026;
+}
+.flex-caption4 .content_style a.btn02:hover span {
+  background-color: #c12026;
+  border-color: #c12026;
+}
+.flex-caption6 {
+  background-color: #c12026;
+}
+.options2_style #options ul li:hover {
+  background-color: #c12026;
+}
+.unoslider_timer {
+  background-color: #c12026;
+}
+.unoslider_indicator a.unoslider_indicator_active {
+  background-color: #c12026;
+}
+.c_title_Color {
+  color: #c12026;
+}
+.Bt1_style:hover .c_title_black {
+  color: #c12026;
+}
+.Bt2_style:hover .c_title_black {
+  color: #c12026;
+}
+.Bt3_style:hover .c_title_black {
+  color: #c12026;
+}
+.Bt3_style .c_title {
+  border-bottom-color: #c12026;
+}
+.Bt4_style:hover .c_title_black {
+  color: #c12026;
+}
+.Ct2_top {
+  border-bottom-color: #c12026;
+}
+.Ch1_style .icon_bg {
+  background-color: #c12026;
+}
+.Ch2_top .c_title {
+  background-color: #c12026;
+}
+.Ch3_top .c_title {
+  background-color: #c12026;
+}
+.Hb1_top {
+  border-bottom-color: #c12026;
+}
+.Hb2_style {
+  border-color: #c12026;
+}
+.Hb2_top {
+  background-color: #c12026;
+}
+.Hb3_top {
+  background-color: #c12026;
+}
+.Footer02_style .Footer02_top_border {
+  background-color: #c12026;
+}
+.threeColSocial .console-mouseon {
+  background-color: #c12026;
+}
+.threeColSocial a.dnnPrimaryAction {
+  background-color: #c12026;
+}
+.threeColSocial .selectDrop.active > a {
+  background-color: #c12026;
+}
+.threeColSocial .dnnButtonGroup > li > a.active {
+  color: #eee;
+  border-right-color: #c12026;
+  background-color: #c12026;
+}
+.threeColSocial .dnnButtonGroup > li > a.disabled:hover {
+  border-left-color: #c12026;
+  background-color: #c12026;
+}
+.threeColSocial .alpha > a:hover {
+  background-color: #c12026;
+  border-right-color: #c12026;
+}
+.threeColSocial .alpha > a,
+.threeColSocial .alpha > a:hover,
+.threeColSocial .alpha > a.active {
+  border-left-color: #c12026;
+}
+.threeColSocial a.dnnSecondaryAction.ArchiveItems:hover {
+  background-color: #c12026;
+}
+.threeColSocial .dnnTertiaryAction:hover,
+a.dnnTertiaryAction:hover {
+  background-color: #c12026;
+}
+@media handheld, only screen and (max-width: 991px) {
+  #HeaderOne #standardMenu .rootMenu > li.selected > a,
+  #HeaderOne #standardMenu .rootMenu > li.breadcrumb > a,
+  #HeaderOne #standardMenu .rootMenu > li:hover > a,
+  #HeaderOne #standardMenu .rootMenu > li > a:hover {
+    background-color: #c12026;
+  }
+  #HeaderTwo #standardMenu .rootMenu > li.selected > a,
+  #HeaderTwo #standardMenu .rootMenu > li.breadcrumb > a,
+  #HeaderTwo #standardMenu .rootMenu > li:hover > a,
+  #HeaderTwo #standardMenu .rootMenu > li > a:hover {
+    background-color: #c12026;
+  }
+  #HeaderThree #standardMenu .rootMenu > li.selected > a,
+  #HeaderThree #standardMenu .rootMenu > li.breadcrumb > a,
+  #HeaderThree #standardMenu .rootMenu > li:hover > a,
+  #HeaderThree #standardMenu .rootMenu > li > a:hover {
+    background-color: #c12026;
+  }
+  #HeaderFour #standardMenu .rootMenu > li.selected > a,
+  #HeaderFour #standardMenu .rootMenu > li.breadcrumb > a,
+  #HeaderFour #standardMenu .rootMenu > li:hover > a,
+  #HeaderFour #standardMenu .rootMenu > li > a:hover {
+    background-color: #c12026;
+  }
+  #megaMenu .root > li.selected > a,
+  #megaMenu .root > li.breadcrumb > a,
+  #megaMenu .root > li:hover > a,
+  #megaMenu .root > li > a:hover {
+    background-color: #c12026;
+  }
+}

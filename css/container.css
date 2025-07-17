@@ -1,0 +1,104 @@
+/*
+ * CSS For DotNetNuke Skin by bestdnnskins.com
+ * Copyright 2014 By BESTDNNSKINS.COM
+ */
+/*-------- for all containers --------*/
+.c_icon, .c_title{ float:left;}
+.c_content_style { display:inline-block; width:100%;}
+.clearafter:after{ clear:both; content:"."; height:0px; font-size:0px; visibility:hidden; display:block; }
+.clearafter{ display:inline-block; }
+.clearafter{ display:block; }
+h2.c_title { margin:0; padding:0; line-height:1em;}
+h2.c_title span {vertical-align:middle; font-weight:bold; font-family:'Open Sans',Arial, sans-serif; transition: all 0.5s ease 0s; -webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;}
+
+/*-------- containers title --------*/
+.c_title_footer{ font-size:20px; color:#f0f0f0; }
+.c_title_black { font-size:20px; color:#222222; }
+.c_title_white { font-size:20px; color:#FFFFFF; }
+.c_title_Color{ font-size:20px;}
+
+/*-------- BlackTitle Container 01 --------*/
+.Bt1_style { min-width:150px; margin-bottom:14px;}
+.Bt1_style:hover .c_title_black{ transition: all 0.5s ease 0s;  -webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;}
+.Bt1_top {margin:0; padding:5px 3px;}
+.Bt1_content { padding:10px 3px;}
+
+/*-------- BlackTitle Container 02 --------*/
+.Bt2_style { min-width:150px; margin-bottom:14px;}
+.Bt2_style:hover .c_title_black{transition: all 0.5s ease 0s;  -webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;}
+.Bt2_top { border-bottom:4px double #e6e6e6;padding:6px 3px 12px; } 
+.Bt2_content { padding:10px 3px;}
+
+/*-------- BlackTitle Container 03 --------*/
+.Bt3_style { min-width:150px; margin-bottom:14px;}
+.Bt3_style:hover .c_title_black{ transition: all 0.5s ease 0s;  -webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;}
+.Bt3_top { border-bottom:1px solid #dddddd; position:relative; }
+.Bt3_style .c_title { border-bottom:2px solid; margin-bottom:-1px; padding:6px 3px 12px;}
+.Bt3_content { padding:10px 3px;}
+
+/*-------- BlackTitle Container 04 --------*/
+.Bt4_style { min-width:150px; margin-bottom:14px;}
+.Bt4_style:hover .c_title_black{transition: all 0.5s ease 0s;  -webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;}
+.Bt4_top { border-bottom:1px solid #dedede; padding:6px 3px 12px;}
+.Bt4_content { padding:10px 3px;}
+
+/*-------- Color Title 01 --------*/
+.Ct1_style { min-width:150px; margin-bottom:14px;}
+.Ct1_top { padding:5px 3px;}
+.Ct1_content { padding:10px 3px;}
+
+/*-------- Title 02 --------*/
+.Ct2_style { min-width:150px; margin-bottom:14px;}
+.Ct2_top { border-bottom:1px solid; padding:5px 3px; }
+.Ct2_content { padding:10px 3px;}
+
+/*-------- Color Header 01 --------*/
+.Ch1_style { min-width:150px; margin-bottom:14px;}
+.Ch1_style .icon_bg{background:url(../images/container_img01.png) no-repeat; width:36px; height:37px; position:absolute; top:0; left:0;}
+.Ch1_top { min-height:15px;background:#444;padding:5px 10px 7px 45px; position:relative; }
+.Ch1_content { padding:10px 3px ; }
+
+/*--------Header 02 --------*/
+.Ch2_style { min-width:150px; margin-bottom:15px;}
+.Ch2_top { min-height:15px;background:#fff;padding:0; position:relative; border:1px solid #cecece; }
+.Ch2_top .c_title{ background:url(../images/container_img02.png) bottom right no-repeat;padding:5px 54px 7px 13px;}
+.Ch2_content{ padding:10px 3px; }
+
+/*--------Header 03 --------*/
+.Ch3_style { min-width:150px; margin-bottom:15px;}
+.Ch3_top { min-height:15px;background:#fff;padding:0; position:relative; }
+.Ch3_top .c_title{ background:url(../images/container_img05.png) bottom right no-repeat;padding:5px 27px 7px 13px;}
+.Ch3_content{ padding:10px 3px; }
+
+/*-------- Header Box 01 --------*/
+.Hb1_style { min-width:150px; margin-bottom:20px;}
+.Hb1_top { min-height:15px;background:#111;padding:5px 13px 7px; border-bottom:3px solid; }
+.Hb1_content { padding:10px 12px 13px; background:#6a6a6a; }
+
+/*-------- Header Box 02 --------*/
+.Hb2_style{ min-width:150px;margin-bottom:20px;border:1px solid;border-radius:3px;}
+.Hb2_top {min-height:15px;padding:5px 13px 7px; margin:2px;border-radius:3px;}
+.Hb2_content { padding:10px 12px 13px;  }
+
+/*-------- Header Box 03 --------*/
+.Hb3_style{ min-width:150px;margin-bottom:20px;border:1px solid #e5e5e5;border-radius:3px;}
+.Hb3_top {min-height:15px; padding:5px 15px 7px; margin:0 -5px; position:relative; }
+.Hb3_top .corner_left{background:url(../images/container_img03.png)no-repeat; position:absolute ; width:5px; height:6px; left:0; bottom:-6px;}
+.Hb3_top .corner_right{background:url(../images/container_img04.png)no-repeat; position:absolute ; width:5px; height:6px; right:0; bottom:-6px;}
+.Hb3_content { padding:10px 12px 13px;  }
+
+/*-------- Footer Contaienr 01 --------*/
+.Footer01_style { min-width:160px;}
+.Footer01_top_bg { padding:7px 3px; margin:0;}
+.Footer01_content { padding:15px 3px 8px 3px;}
+
+/*-------- Footer Contaienr 02 --------*/
+.Footer02_style { min-width:160px;}
+.Footer02_top_bg { padding:7px 3px; margin:0;}
+.Footer02_border{background:#333; margin-top:5px;}
+.Footer02_style .Footer02_top_border{ height:2px; width:60px; -webkit-transition: all 0.2s ease-in 0s; -moz-transition: all 0.2s ease-in 0s; transition: all 0.2s ease-in 0s;}
+.Footer02_style:hover .Footer02_top_border{ width:120px;-webkit-transition: all 0.4s ease-in 0s; -moz-transition: all 0.4s ease-in 0s; transition: all 0.4s ease-in 0s;}
+.Footer02_content { padding:15px 3px 8px 3px;}
+
+/*-------- notitle --------*/
+.notitle_container { }
