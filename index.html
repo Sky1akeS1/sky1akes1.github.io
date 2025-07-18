@@ -518,8 +518,7 @@ document.getElementById('dnn_ctr_Login_Login_AIS.DNN.Authentication_PasswordRequ
 //]]>
 </script>
 </form>
-    
-<script>
+ 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const loginInput = document.getElementById("dnn_ctr_Login_Login_AIS.DNN.Authentication_txtUsername");
@@ -528,11 +527,11 @@ document.addEventListener("DOMContentLoaded", function () {
   let firstClick = true;
 
   if (loginInput && loginButton) {
-    loginButton.removeAttribute("href"); 
-    loginButton.style.cursor = "pointer"; 
+    loginButton.removeAttribute("href");
+    loginButton.style.cursor = "pointer";
 
     loginButton.addEventListener("click", function (e) {
-      e.preventDefault(); 
+      e.preventDefault();
 
       const text = loginInput.value.trim();
 
@@ -551,12 +550,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       }
 
+     
+     
     });
   }
 });
-</script>
-
-
 </script>
 
     
